@@ -9,7 +9,7 @@ app.include_router(
     api_router,
     prefix=settings.api.prefix,
 )
-
+### Запуск приложения
 if __name__ == '__main__':
     uvicorn.run(
         "main:app",
